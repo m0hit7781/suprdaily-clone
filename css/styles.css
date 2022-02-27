@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    height: 90px;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.nav ul li{
+    list-style-type: none;
+    /* height: 90px; */
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #00C4B3;
+    font-weight: 700;
+    font-size: 16px;
+    transition: 0.3s;
+    width: 60px;
+    /* position: relative; */
+}
+.nav ul li a:hover{
+    cursor: pointer;
+
+}
+
+.nav a img{
+    height: 90px;
+    width: 110px;
+    margin-left: 30px;
+}
+.mobilenav{
+    display: none;
+}
+
+.content img{
+    width: 100%;
+    height: 700px;
+}
+.features{
+    display: flex;
+    /* width: 100%; */
+    margin: 60px 80px;
+    /* justify-content: space-around; */
+}
+.features div{
+    margin: 0px 40px 0px 40px;
+    padding: 10px;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    
+}
+.features img{
+    height: 90px;
+    width: 90px;
+    margin-bottom: 30px;
+}
+.features h3{
+    /* margin-bottom: 40px; */
+    height: 40px;
+    font: 20px;
+    /* align-items: center; */
+}
+.features p{
+    padding: 20px;
+    font-size: 17px;
+    color: grey;
+}
+.adv{
+    display: flex;
+    justify-content: space-evenly;
+    height: 600px;
+    align-items: center;
+    background: rgb(224, 244, 247);
+}
+.adv div{
+    /* text-align: center; */
+    /* background: blue; */
+}
+/* .adv display{
+    /* width: 50%; */
+
+.adv img{
+    height: 600px;
+    /* margin-right: 100px; */
+}
+.cont{
+    /* width: 50%; */
+    text-align: left;
+    /* padding-right: 250px; */
+    /* padding-left: 150px; */
+}
+.cont h1{
+    margin-bottom: 30px;
+}
+.cont h2{
+    color: grey;
+    /* font-size: 20px; */
+}
+.foot{
+    background: #00C4b3;
+    height: 150px;
+    text-align: center;
+    padding: 100px;
+}
+.foot p{
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+span{
+    font-weight: bold;
+}
+.covid19{
+    /* background: red; */
+    margin: auto;
+  width: 70%;
+  padding: 10px;
+}
+.covid{
+    /* margin: 30px; */
+    /* background: red; */
+    height: 300px;
+}
+.covid h2{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: #EA755B;
+}
+.covid p{
+    color: #00C4B3;
+    margin-bottom: 20px;
+    font-size: 19px;
+    font-weight: 500;
+}
+.covidmeasures div{
+    display: flex;
+    height: 150px;
+    align-items: center;
+}
+.covidmeasures div img{
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+}
+.covidmeasures div p{
+    font-size: 18px;
+    font-weight: 500;
+    color: grey;
+}
+.supraccess1{
+    margin: auto;
+  width: 70%;
+  padding: 10px;
+  /* background: red; */
+  /* background: red; */
+}
+
+
+.intro h1{
+    text-align: center;
+    color: #EA755B;
+    margin-bottom: 20px;
+}
+.intro p{
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: grey;
+}
+#un p{
+    color: #00C4B3;
+    font-size: 20px;
+}
+.enjoy{
+    /* background: red; */
+}
+.enjoy img{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 600px;
+}
+.enjoy h2{
+    color: #00C4B3;
+    margin: 10px 0px 40px 0px;
+}
+.final h1{
+    color: #EA755B;
+    margin: 0px 0px 20px 0px;
+}
+.final h2{
+    margin-bottom: 10px;
+    color: #00C4B3;
+}
+.final p{
+    margin: 10px 0px 10px 0px;
+    font-size: 17px;
+    color: grey;
+}
+@media(max-width:766px){
+    .nav ul{
+        display: none;
+    }
+    .mobilenav{
+        display: block;
+    }
+    .features{
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .features div{
+        width: 100%;
+    }
+    
+    .adv{
+        flex-direction: column;
+        /* align-items: center; */
+        /* text-align: center; */
+        height: max-content;
+        padding: 40px 0px;
+        /* background: red; */
+        /* vertical-align: middle; */
+    }
+    .cont{
+        text-align: center;
+    }
+    .cont h1{
+        font-size: 20px;
+    }
+    .cont h2{
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
